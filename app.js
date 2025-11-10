@@ -45,6 +45,57 @@
 //    alert(i);
 // }
                              // function
-function greet(){console.log("hello")}
-greet();
+// function greet(){
+//     console.log("hello")
+// }
+// greet();
+
+// function add ( a,b){
+//     document.writeln("Hello Word")
+//     document.writeln("addssison")
+//     return a+b;
+// }
+// function sub ( a,b){
+//     return a-b;
+// }
+// function multiply ( a,b){
+//     return a*b;
+// }
+// function divide ( a,b){
+//     return a/b;
+// }
+
+// console.log(add(5,10));
+// console.log(sub(5,10));
+// console.log(multiply(5,10));
+// console.log(divide(5,10));
+                            // arrow function
+function add(a,b){
+    const add = (a,b)=> a+b;
+    return(a+b);
+}
+function sub(a,b){
+    const sub = (a,b)=> a-b;
+    return(a-b);
+}
+function multiply(a,b){
+    const multiply = (a,b)=> a*b;
+    return(a*b);
+}
+function divide(a,b){
+    const divide = (a,b)=> a/b;
+    return(a/b);
+}
+alert(add(2,5));
+alert(sub(2,5));
+alert(multiply(2,5));
+alert(divide(2,5));
+
+
+const greet = (name) => document.writeln(`My name is`$)
+
+
+
+
+
 
