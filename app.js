@@ -70,29 +70,53 @@
 // console.log(multiply(5,10));
 // console.log(divide(5,10));
                             // arrow function
-function add(a,b){
-    const add = (a,b)=> a+b;
-    return(a+b);
-}
-function sub(a,b){
-    const sub = (a,b)=> a-b;
-    return(a-b);
-}
-function multiply(a,b){
-    const multiply = (a,b)=> a*b;
-    return(a*b);
-}
-function divide(a,b){
-    const divide = (a,b)=> a/b;
-    return(a/b);
-}
-alert(add(2,5));
-alert(sub(2,5));
-alert(multiply(2,5));
-alert(divide(2,5));
+// function add(a,b){
+//     const add = (a,b)=> a+b;
+//     return(a+b);
+// }
+// function sub(a,b){
+//     const sub = (a,b)=> a-b;
+//     return(a-b);
+// }
+// function multiply(a,b){
+//     const multiply = (a,b)=> a*b;
+//     return(a*b);
+// }
+// function divide(a,b){
+//     const divide = (a,b)=> a/b;
+//     return(a/b);
+// }
+// alert(add(2,5));
+// alert(sub(2,5));
+// alert(multiply(2,5));
+// alert(divide(2,5));
 
 
-const greet = (name) => document.writeln(`My name is`$)
+// const greet = (name) => document.writeln(`My name is`$)
+
+                   // Object
+const user ={
+    name:"Jawad",
+    age:17
+}
+
+console.log(user.name);
+
+const car = {
+    model:"BMW",
+    make :2025 ,
+    variant: "M5",
+    Start(){
+        console.log("Starting the car....");
+    },
+    stop() {
+        console.log ("Stopping the engine,Please wait.");
+    }
+}
+car.Start();
+car.stop();
+
+
 
 
 
