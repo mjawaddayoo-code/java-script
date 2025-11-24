@@ -95,30 +95,61 @@
 // const greet = (name) => document.writeln(`My name is`$)
 
                    // Object
-const user ={
-    name:"Jawad",
-    age:17
-}
+// const user ={
+//     name:"Jawad",
+//     age:17
+// }
 
-console.log(user.name);
+// console.log(user.name);
 
-const car = {
-    model:"BMW",
-    make :2025 ,
-    variant: "M5",
-    Start(){
-        console.log("Starting the car....");
-    },
-    stop() {
-        console.log ("Stopping the engine,Please wait.");
-    }
-}
-car.Start();
-car.stop();
-
-
+// const car = {
+//     model:"BMW",
+//     make :2025 ,
+//     variant: "M5",
+//     Start(){
+//         console.log("Starting the car....");
+//     },
+//     stop() {
+//         console.log ("Stopping the engine,Please wait.");
+//     }
+// }
+// car.Start();
+// car.stop();
 
 
+// class Car {
+//     constructor( make, model,variant){
+//         this.make = make;
+//         this.model = model;
+//         this.variant = variant;
+//     }
+//     start(){
+//         console.log(
+//             ` The car ${this.model} by ${this.make} (${this.variant}) is STARTING!!!`
+//         );
+//     }
+// }
+// const BMW = new Car ("BMW", "M5", "CS");
+// const swift = new Car ("Suzuki", "Swift", "GLX");
+// BMW.start();
+// swift.start();
+
+
+
+// class Animal {
+//     constructor( Wild, Domestivc){
+//         this.Wild = Wild;
+//         this.Domestivc = Domestivc;
+//     }
+//     Sound(){
+//         console.log(
+//             ` This Animal is  ${this.Wild} and this aimal ${this.Domestivc}`
+//         );
+//     }
+// }
+
+// const Animal = Cat ("ggg", "cat",);
+// Animal.Sound();
 
 
 
